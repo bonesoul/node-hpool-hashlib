@@ -1,0 +1,29 @@
+{
+    "name": "hpool-hashlib",
+    "version": "0.0.1",
+    "description": "Hashing library for hpool",
+    "license": "GPL-3.0",
+        "keywords": [
+        "hash",
+        "hashing"        
+    ],
+    "os": [ "linux", "darwin", "win32" ],
+    "cpu": [ "x64", "ia32", "arm", "mips" ],
+    "main": "index.js",
+    "homepage": "https://github.com/int6/hpool-hashlib",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/int6/hpool-hashlib.git"
+    },
+    "bugs": {
+        "url": "https://github.com/int6/hpool-hashlib/issues"
+    },
+    "author": "Huseyin Uslu <shalafiraistlin@gmail.com> (http://www.coinium.org)", 
+    "dependencies": {
+        "bindings" : "*"
+    },
+    "engines": {
+        "node": ">=0.10",
+        "npm": "*"
+    }    
+}

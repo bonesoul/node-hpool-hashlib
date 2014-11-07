@@ -26,3 +26,10 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# extra
+.ntvs_analysis.dat
+*.suo
+[Oo]bj/
+[Bb]in/
+[Bb]uild/
