@@ -35,6 +35,9 @@
     <Content Include="hashlib.cc" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="scryptn.c" />
+    <Content Include="scryptn.h" />
+    <Content Include="sha256.h" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
 </Project>
