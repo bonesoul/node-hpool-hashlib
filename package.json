@@ -3,14 +3,26 @@
     "version": "0.0.1",
     "description": "Hashing library for hpool",
     "license": "GPL-3.0",
-        "keywords": [
+    "keywords": [
         "hash",
-        "hashing"        
+        "hashing",
+        "sha256",
+        "scrypt"
     ],
-    "os": [ "linux", "darwin", "win32" ],
-    "cpu": [ "x64", "ia32", "arm", "mips" ],
-    "main": "index.js",
+    "os": [
+        "linux",
+        "darwin",
+        "win32"
+    ],
+    "cpu": [
+        "x64",
+        "ia32",
+        "arm",
+        "mips"
+    ],
+    "main": "src/index.js",
     "homepage": "https://github.com/int6/hpool-hashlib",
+    "author": "Huseyin Uslu <shalafiraistlin@gmail.com> (http://www.coinium.org)",
     "repository": {
         "type": "git",
         "url": "https://github.com/int6/hpool-hashlib.git"
@@ -18,12 +30,27 @@
     "bugs": {
         "url": "https://github.com/int6/hpool-hashlib/issues"
     },
-    "author": "Huseyin Uslu <shalafiraistlin@gmail.com> (http://www.coinium.org)", 
     "dependencies": {
-        "bindings" : "*"
+        "bindings": "*"
+    },
+    "devDependencies": {
+        "mocha": "~2.0.1",
+        "should": "*",
+        "mitm": "*",
+        "jshint": "*",
+        "jscs": "*",
+        "istanbul": "*"
+    },
+    "scripts": {
+        "start": "node src/index.js",
+        "lint": "./node_modules/.bin/jshint .",
+        "checkStyle": "./node_modules/.bin/jscs .",
+        "test": "make test",
+        "posttest": "./node_modules/.bin/istanbul check-coverage && rm -rf coverage",
+        "postinstall": "make test"
     },
     "engines": {
         "node": ">=0.10",
         "npm": "*"
-    }    
+    }
 }

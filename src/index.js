@@ -19,5 +19,4 @@
 //     license or white-label it as set out in licenses/commercial.txt.
 //
 
-
 module.exports = require('bindings')('hashlib.node') // load bindings from hashlib.node
