@@ -1,6 +1,6 @@
 {
     "name": "hpool-hashlib",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Hashing library for hpool",
     "license": "GPL-3.0",
     "keywords": [
@@ -46,8 +46,7 @@
         "lint": "./node_modules/.bin/jshint .",
         "checkStyle": "./node_modules/.bin/jscs .",
         "test": "make test",
-        "posttest": "./node_modules/.bin/istanbul check-coverage && rm -rf coverage",
-        "postinstall": "make test"
+        "posttest": "./node_modules/.bin/istanbul check-coverage && rm -rf coverage"
     },
     "engines": {
         "node": ">=0.10",
