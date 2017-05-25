@@ -1,5 +1,7 @@
 # hpool-hashlib
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bonesoul/node-hpool-hashlib.svg)](https://greenkeeper.io/)
+
 [![npm version](https://badge.fury.io/js/hpool-hashlib.svg)](https://www.npmjs.org/package/hpool-hashlib)
 [![Dependency Status](https://david-dm.org/int6/hpool-hashlib.svg?style=flat)](https://david-dm.org/int6/hpool-hashlibm)
 [![devDependency Status](https://david-dm.org/int6/hpool-hashlib/dev-status.svg?style=flat)](https://david-dm.org/int6/hpool-hashlib#info=devDependencies)
